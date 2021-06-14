@@ -1,4 +1,4 @@
-/ test_seznam_regform.spec.js created with Cypress
+// test_seznam_regform.spec.js created with Cypress
 
 //
 
