@@ -19,15 +19,11 @@
 // https://on.cypress.io/writing-first-test
 	
 
-
-
-
       //
 
       // Empty fields
 
       //
-
  
 
 describe('Seznam.cz REG-FORM test', () => {
@@ -57,10 +53,9 @@ describe('Seznam.cz REG-FORM test', () => {
       cy.get('input#register-username.error').should('have.value', '')
       cy.get('.error > i').contains('Zadejte e-mail')
 
-
     })
 
- 
+	
 
     it('Try pass with empty email and try switch domain', () => {
 
@@ -106,7 +101,6 @@ describe('Seznam.cz REG-FORM test', () => {
 
       cy.get('.error > i').contains('Zvolte své pohlaví')
       cy.get('.error > i').contains('Neobejdeme se bez vašeho souhlasu.')
-
 
     })
 
